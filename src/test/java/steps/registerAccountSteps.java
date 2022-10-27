@@ -38,7 +38,7 @@ public class registerAccountSteps extends registerPageObjects {
         isElementVisible(successRegisterNotification);
     }
 
-    @After("Close browser")
+    @After
     public void close() {
         finish();
     }
